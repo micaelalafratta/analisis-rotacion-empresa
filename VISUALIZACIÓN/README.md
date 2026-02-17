@@ -87,24 +87,34 @@ Por este motivo:
 
 ### 📌 Métricas de Rotación
 
+**Left Company**
+
 ```DAX
 left company = 
 CALCULATE(
     COUNTROWS('hr_data_clean'),
     'hr_data_clean'[attrition] = "ex-employee"
-)```
+)
 
-```DAX
-PT Left = 
+PT left = 
 CALCULATE(
-    [Left Company],
+    [left company],
     'hr_data_clean'[workinghours] = "part time"
-)```
+)
 
-```DAX
-% PT Left = 
+% PT left = 
 DIVIDE(
-    [PT Left],
-    [Left Company],
+    [PT left],
+    [left company],
     0
-)```
+)
+
+attrition rate = 
+DIVIDE(
+    CALCULATE(
+        COUNTROWS('hr_data_clean'),
+        'hr_data_clean'[attrition] = "ex-employee"
+    ),
+    COUNTROWS('hr_data_clean')
+)
+
