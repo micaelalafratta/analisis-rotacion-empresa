@@ -38,6 +38,8 @@ A través del análisis, detectamos puntos críticos de abandono en la organizac
 * **🕒 Jornada Laboral:** El personal *part-time* representa el 62% de las salidas de la empresa.
 * **🎂 Factor Edad:** La mayor rotación se concentra en jóvenes entre 18 y 22 años, mientras que la estabilidad máxima ocurre entre los 38 y 41 años.
 
+<img width="2030" height="1147" alt="image" src="https://github.com/user-attachments/assets/085357ca-20b8-4ed9-b716-c5398d01c9a0" />
+
 ---
 
 ## 🚀 Próximos Pasos Recomendados
